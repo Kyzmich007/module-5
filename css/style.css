@@ -1,0 +1,325 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.conteiner {
+  width: 1110px;
+  margin: 0 auto;
+}
+header {
+  padding-top: 36px;
+  padding-bottom: 28px;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+.logo::first-letter {
+  font-weight: bold;
+  font-size: 30px;
+  color: #1abc9c;
+}
+
+.logo a {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-size: 30px;
+  line-height: 32px;
+  color: #555252;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+ul li {
+  float: left;
+  margin-right: 30px;
+}
+li a {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 11px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #0f0101;
+  font-weight: bold;
+  margin: 0 auto;
+}
+.site-menu a:hover {
+  color: #1abc9c;
+}
+.site-menu {
+  width: 466px;
+  float: right;
+  margin-top: 8px;
+}
+li:last-child {
+  margin-right: 0;
+}
+.slider-image {
+  filter: brightness(52%);
+}
+
+.slider-wrapper {
+  padding-bottom: 96px;
+  margin: 0 auto;
+}
+.slider {
+  position: relative;
+  margin: 0 auto;
+}
+
+.slider-description {
+  width: 764px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.title-slider {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-size: 60px;
+  line-height: 82px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+  margin: 0 0 12px;
+  text-align: center;
+}
+
+button {
+  padding: 0;
+  border: 0;
+  text-transform: none;
+  width: 104px;
+  height: 104px;
+  background-color: rgba(78, 198, 171, 0.65);
+  cursor: pointer;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.btn-1 {
+  float: left;
+  background-image: url(/img/icons/angle-left.svg);
+  background-size: 85px;
+}
+.btn-1:hover {
+  background-color: #1abc9c;
+}
+.btn-2 {
+  float: right;
+  background-image: url(/img/icons/angle-right.svg);
+  background-size: 85px;
+}
+.btn-2:hover {
+  background-color: #1abc9c;
+}
+.slider-bottum {
+  width: 1110px;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.subtitle {
+  display: block;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 54px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+  margin: 0 auto;
+  text-align: left;
+}
+.title-products {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-size: 48px;
+  line-height: 32px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #515151;
+  margin: 0 auto 80px;
+  text-align: center;
+}
+.title-products::after {
+  content: "";
+  display: block;
+  width: 164px;
+  height: 7px;
+  background-color: #1abc9c;
+  margin: 24px auto 0;
+  text-align: center;
+}
+.name-price {
+  line-height: normal;
+  background-color: #323232;
+}
+.product-title {
+  float: left;
+  margin: 0;
+  line-height: 38px;
+  padding-left: 13px;
+}
+.product-price {
+  float: right;
+  padding: 1px 12px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.product-card-list {
+  width: 255px;
+}
+.product-card-list:not(:last-child) {
+  margin-bottom: 0;
+}
+.name-price {
+  line-height: normal;
+  background-color: #323232;
+}
+.product-title a,
+.product-price {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 38px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+  text-align: left;
+  font-weight: 600;
+}
+.products {
+  padding-bottom: 100px;
+}
+.product-card-list:hover .name-price {
+  background-color: #1abc9c;
+}
+.wrap {
+  position: relative;
+}
+.product-card-list:hover .overlay {
+  opacity: 1;
+  visibility: visible;
+}
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  opacity: 0;
+  border: 10px solid rgba(255, 255, 255, 0.5);
+  background-clip: padding-box;
+}
+.overlay-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.btn-like {
+  margin-right: 4px;
+  margin-bottom: 8px;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #fff;
+  background-image: url(/img/icons/like.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: inherit;
+}
+.btn-like:hover {
+  background-color: #1abc9c;
+}
+.btn-shuffle {
+  margin-right: 4px;
+  margin-bottom: 8px;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #fff;
+  background-image: url(/img/icons/shuffle.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: inherit;
+}
+.btn-shuffle:hover {
+  background-color: #1abc9c;
+}
+.btn-clock {
+  margin-bottom: 8px;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #fff;
+  background-image: url(/img/icons/clock.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: inherit;
+}
+.btn-clock:hover {
+  background-color: #1abc9c;
+}
+.btn-buy {
+  width: 166px;
+  height: 50px;
+  border: 1px solid #fff;
+  background-image: url(/img/icons/cart.svg);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-color: #323232;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  text-align: center;
+  padding-left: 20px;
+}
+.btn-buy:hover {
+  background-color: #1abc9c;
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+footer {
+  background-color: #323232;
+  padding: 38px 0;
+}
+.text {
+  margin: 0;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: rgb(254, 254, 254);
+  line-height: 1.75;
+  line-height: 28px;
+  text-align: center;
+}
+.footer-link {
+  text-decoration: none;
+  color: #46bfa9;
+}
