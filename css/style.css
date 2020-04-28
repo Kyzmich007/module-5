@@ -117,7 +117,7 @@ button {
 }
 .btn-1 {
   float: left;
-  background-image: url(/img/icons/angle-left.svg);
+  background-image: url(../img/icons/angle-left.svg);
   background-size: 85px;
 }
 .btn-1:hover {
@@ -125,7 +125,7 @@ button {
 }
 .btn-2 {
   float: right;
-  background-image: url(/img/icons/angle-right.svg);
+  background-image: url(../img/icons/angle-right.svg);
   background-size: 85px;
 }
 .btn-2:hover {
@@ -246,7 +246,7 @@ button {
   width: 50px;
   height: 50px;
   border: 1px solid #fff;
-  background-image: url(/img/icons/like.svg);
+  background-image: url(../img/icons/like.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-color: inherit;
@@ -260,7 +260,7 @@ button {
   width: 50px;
   height: 50px;
   border: 1px solid #fff;
-  background-image: url(/img/icons/shuffle.png);
+  background-image: url(../img/icons/shuffle.png);
   background-position: center;
   background-repeat: no-repeat;
   background-color: inherit;
@@ -273,7 +273,7 @@ button {
   width: 50px;
   height: 50px;
   border: 1px solid #fff;
-  background-image: url(/img/icons/clock.png);
+  background-image: url(../img/icons/clock.png);
   background-position: center;
   background-repeat: no-repeat;
   background-color: inherit;
@@ -285,7 +285,7 @@ button {
   width: 166px;
   height: 50px;
   border: 1px solid #fff;
-  background-image: url(/img/icons/cart.svg);
+  background-image: url(../img/icons/cart.svg);
   background-position: left;
   background-repeat: no-repeat;
   background-color: #323232;
