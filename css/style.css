@@ -38,13 +38,13 @@ h1 {
 
 .logo a {
   font-family: "Roboto", sans-serif;
+  font-weight: 300;
   font-style: normal;
   font-size: 30px;
   line-height: 32px;
   color: #555252;
   text-decoration: none;
   text-transform: uppercase;
-  font-weight: normal;
 }
 ul li {
   float: left;
@@ -58,7 +58,7 @@ li a {
   text-transform: uppercase;
   text-decoration: none;
   color: #0f0101;
-  font-weight: bold;
+  font-weight: 700;
   margin: 0 auto;
 }
 .site-menu a:hover {
@@ -94,6 +94,7 @@ li:last-child {
 }
 .title-slider {
   font-family: "Roboto", sans-serif;
+  font-weight: 900;
   font-style: normal;
   font-size: 60px;
   line-height: 82px;
@@ -153,6 +154,7 @@ button {
 }
 .title-products {
   font-family: "Roboto", sans-serif;
+  font-weight: 900;
   font-style: normal;
   font-size: 48px;
   line-height: 32px;
@@ -207,7 +209,7 @@ button {
   text-decoration: none;
   color: #ffffff;
   text-align: left;
-  font-weight: 600;
+  font-weight: 900;
 }
 .products {
   padding-bottom: 100px;
