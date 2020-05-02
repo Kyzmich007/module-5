@@ -77,12 +77,10 @@ li:last-child {
 }
 
 .slider-wrapper {
-  padding-bottom: 96px;
   margin: 0 auto;
 }
 .slider {
   position: relative;
-  margin: 0 auto;
 }
 
 .slider-description {
@@ -102,7 +100,6 @@ li:last-child {
   text-decoration: none;
   color: #ffffff;
   margin: 0 0 12px;
-  text-align: center;
 }
 
 button {
@@ -151,6 +148,10 @@ button {
   color: #ffffff;
   margin: 0 auto;
   text-align: left;
+}
+.products {
+  padding-top: 96px;
+  background-color: #e9f0fd;
 }
 .title-products {
   font-family: "Roboto", sans-serif;
